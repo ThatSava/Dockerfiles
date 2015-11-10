@@ -1,4 +1,4 @@
-FROM Sava:ubuntu-openjdk-8-jre
+FROM Sava/ubuntu-openjdk-8-jre
 
 MAINTAINER Sava
 
