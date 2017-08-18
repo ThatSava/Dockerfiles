@@ -8,7 +8,8 @@
   "BotConfiguration": {
     "CouchBotId": 0,
     "Prefix": "",
-    "TotalShards":  1
+    "TotalShards":  1,
+    "OwnerId": 0
   },
    "Platforms": {
      "EnableMixer": true,
@@ -21,9 +22,9 @@
    "Intervals": {
      "Picarto": 120,
      "Smashcast": 120,
-     "Twitch": 300,
+     "Twitch": 60,
      "TwitchFeed": 300,
-     "YouTubePublished": 900,
+     "YouTubePublished": 600,
      "YouTubeLive": 300,
      "VidMe":  900
    },
