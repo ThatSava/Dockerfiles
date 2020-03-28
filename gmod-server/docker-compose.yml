@@ -1,0 +1,19 @@
+garrysmod:
+  ports:
+    - "27015:27015"
+    - "27005:27005"
+    - "27015:27015/udp"
+
+  environment:
+    WORKSHOPCOLLECTIONID: "0000000"
+    AUTHKEY: "00000"
+
+  image: thatsava/gmod-server
+
+  container_name: garrysmodServer
+
+  volumes:
+    - "/home/user/garrysmodFiles:/home/steam/garrysmod"
+
+  tty: true
+  stdin_open: true
