@@ -1,0 +1,14 @@
+discord-bot:
+  environment:
+    TOKEN: "discord.token"
+
+  image: thatsava/discord-red-bot:latest
+
+  container_name: discord_bot
+
+  volumes:
+    - "/home/sava/discord_bot:/root/.local/share/Red-DiscordBot/data/mybot"
+
+  tty: true
+  stdin_open: true
+  restart: on-failure
