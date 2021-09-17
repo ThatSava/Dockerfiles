@@ -9,7 +9,7 @@ This is an update of [JonasBonno's discord bot dockerfile](https://github.com/Jo
 
 # Setup
 You can run the bot by executing the following command: 
-`docker run --tty=true --interactive=true --detach=true --restart unless-stopped --name [name of your container] --env TOKEN="[your discord bot token]" jonasbonno/discordbot:3.1`.
+`docker run --tty=true --interactive=true --detach=true --restart unless-stopped --name [name of your container] --env TOKEN="[your discord bot token]" thatsava/discord-red-bot:latest`.
 Furthermore, if you wish to have data persistency, you can mount the data directory to host by adding the following argument `-v $(pwd):/root/.local/share/Red-DiscordBot/data/mybot`.
 Make sure to set a name and your discord token in the appropriate places. You can read below how to generate your bot token. [How to generate bot token](#generating-bot-token).
 After running your bot, a join link for the bot will be visible in the console. You can see the container output by executing `docker logs [name of your container]`.
